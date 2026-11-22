@@ -486,6 +486,23 @@ dependencies = [
 ]
 
 [[package]]
+name = "bars-custom"
+version = "0.1.0"
+dependencies = [
+ "ansi_term",
+ "insta",
+ "lazy_static",
+ "rand 0.10.2",
+ "regex",
+ "serde",
+ "serde_json",
+ "thiserror 2.0.19",
+ "unicode-width 0.2.2",
+ "zellij-tile",
+ "zellij-tile-utils",
+]
+
+[[package]]
 name = "base64"
 version = "0.22.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4819,23 +4836,6 @@ dependencies = [
  "rustix 0.38.44",
  "windows-sys 0.52.0",
  "winx",
-]
-
-[[package]]
-name = "tab-bar-custom"
-version = "0.1.0"
-dependencies = [
- "ansi_term",
- "insta",
- "lazy_static",
- "rand 0.10.2",
- "regex",
- "serde",
- "serde_json",
- "thiserror 2.0.19",
- "unicode-width 0.2.2",
- "zellij-tile",
- "zellij-tile-utils",
 ]
 
 [[package]]

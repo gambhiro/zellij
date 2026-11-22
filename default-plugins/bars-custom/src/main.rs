@@ -234,7 +234,7 @@ impl ZellijSharedPlugin for State {
     // answered from inside them. Grant the permissions up front in
     // ~/.cache/zellij/permissions.kdl instead:
     //
-    // "/path/to/tab-bar-custom.wasm" {
+    // "/path/to/bars-custom.wasm" {
     //     ChangeApplicationState
     //     ReadApplicationState
     // }
