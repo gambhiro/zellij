@@ -50,6 +50,7 @@ tempfile = { workspace = true }
 [workspace]
 members = [
     "default-plugins/bars",
+    "default-plugins/tab-bar-custom",
     "default-plugins/strider",
     "default-plugins/fixture-plugin-for-tests",
     "default-plugins/session-manager",
